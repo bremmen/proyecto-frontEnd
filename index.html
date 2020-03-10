@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleMain.css">   
+
+    <title>Login</title>
+
+</head>
+<body>
+    <header class="header">
+        <img class="header__img" src="img/Logo_Flexweb_Final_negativo.png" alt="">
+    </header>
+    <section class="login">
+        <section class="login__container">
+            <h2 id="titulo">Iniciar Sesión</h2>
+            <form class="login__container--form">
+                <input class="input" name="mail" type="email" placeholder="Correo" required id="mail">
+                <input class="input" name="pass" type="password" placeholder="Contraseña" required id="pass">
+                <div class="login__container-remember-me">
+                    <label>
+                        <input type="checkbox" name="" id="cbox1" value="checkbox"> Recuerdame
+                    </label>
+                    <a href="/">Olvidé mi contraseña</a>
+                </div>
+            </form>
+            <a href="/principal.html" class="button">Iniciar sesión</a>
+            <div class="login__container--social-media">
+                <div><img src="img/google-icon.webp" alt="Google">Inicia sesión con google</div>
+                <div><img src="img/twitter-icon.webp" alt="Google">Inicia sesión con twitter</div>
+            </div>
+            <p class="login__container-register">¿No tienes cuenta? <a href="/registro.html">Registrate</a></p>
+        </section>
+    </section>
+
+    <footer class="footer">
+        <a href="#">Terminos de uso</a>
+        <a href="#">Declaración de privacidad</a>
+        <a href="#">Centro de ayuda</a>
+    </footer>
+
+    <script src="code.js"></script>
+</body>
+</html>
